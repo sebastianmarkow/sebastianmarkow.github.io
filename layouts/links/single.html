@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+  <h2>
+    <a href="{{ .Params.externalURL }}" rel="noopener noreferrer">{{ .Title }} ↗</a>
+  </h2>
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+  <div>{{ .Content }}</div>
+</article>
+{{ end }}
