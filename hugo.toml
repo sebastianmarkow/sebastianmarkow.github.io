@@ -1,6 +1,10 @@
 baseURL = "https://markow.io/"
 languageCode = "en-us"
 title = "Sebastian Klatt"
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+  unsafe = false
 [pagination]
   pagerSize = 10
 
