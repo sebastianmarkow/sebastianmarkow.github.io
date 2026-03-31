@@ -1,0 +1,17 @@
+baseURL = "https://markow.io/"
+languageCode = "en-us"
+title = "Sebastian Klatt"
+paginate = 10
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+[[menus.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+[[menus.main]]
+  name = "Links"
+  url = "/links/"
+  weight = 3
